@@ -9,7 +9,7 @@ export default class New2 extends Component {
       componentDidMount(){
         console.log('yes');
       }
-      componentWillUnmount(){
+      componentDidUpdate(){
         console.log('yes it did');
       }
 
