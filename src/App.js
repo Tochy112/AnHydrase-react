@@ -1,5 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'
+import New from './New'
+import New2 from './New2';
 
 
 function App() {
@@ -7,15 +9,8 @@ function App() {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <h1>HELLO WORLD!!</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <New />
+        <New2 />
       </header>
     </div>
   );
