@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+form label{
+  display: flex;
+  margin-top: 10px;
+}
+form input{
+  padding: 5px;
+}
+form button{
+  width: 180px;
+  height: 30px;
+  margin-top: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
