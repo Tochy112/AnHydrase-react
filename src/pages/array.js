@@ -1,9 +1,8 @@
-import { keyboard } from '@testing-library/user-event/dist/keyboard';
 import React from 'react'
 
 const array = () => {
     const items = [
-        {id: 1, name:'iphone x', category:'Phones', amount:'$440'},
+        {id: 1, name:'samsung A12', category:'Phones', amount:'$440'},
         {id: 2, name:'Table', category:'Furniture', amount:'$80'},
         {id: 3, name:'Book',category:'School', amount:'$15'},
         {id: 3, name:'Cup', category:'Kitchen', amount:'$40'},
