@@ -19,6 +19,18 @@ form button{
   height: 30px;
   margin-top: 20px;
 }
+table{
+  padding: 10px;
+}
+th{
+  border: 2px solid;
+  background-color: rgb(34, 33, 33);
+  color: #fff;
+}
+td{
+  padding: 5px;
+  border: 2px solid;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

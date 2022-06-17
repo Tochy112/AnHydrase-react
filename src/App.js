@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar'
+import Array from './pages/array'
 import New from './New'
 import New2 from './New2';
 import New3 from './New3';
@@ -14,7 +15,8 @@ function App() {
         {/* <New /> */}
         {/* <New2 /> */}
         {/* <New3 /> */}
-        <New4 />
+        {/* <New4 /> */}
+        <Array />
       </header>
     </div>
   );
