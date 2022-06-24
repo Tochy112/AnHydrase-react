@@ -26,7 +26,7 @@ const array = () => {
             
             <tbody>
                 {items? items.map((item =>
-                    <tr>
+                    <tr key={id}>
                          
                         <td>{item.name}</td>
                         <td>{item.category}</td>
