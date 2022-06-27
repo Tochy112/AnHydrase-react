@@ -7,6 +7,9 @@ import ToDoList from './pages/ToDoList';
 import ToDoForm from './ToDoForm';
 import List2 from './List2';
 import List from './List';
+import Form2 from './form'
+
+
 
 
   function App() {
@@ -40,7 +43,9 @@ import List from './List';
           {/* <ToDoForm addTask={addTask}/> */}
           {/* <ToDoList toDoList={toDoList} handleToggle={handleToggle} handleFilter={handleFilter}/> */}
 
-          <List />
+          {/* <List /> */}
+
+          <Form2 />
         </div>
        
       </div>
