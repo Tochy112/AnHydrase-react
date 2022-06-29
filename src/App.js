@@ -5,6 +5,7 @@ import List from './List';
 import Form from './form'
 import Form2 from './Form2'
 import Response from './Response'
+import Blog from './Blog'
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 
@@ -18,13 +19,14 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
           {/* <List /> */}
 
           {/* <Form /> */}
-          <BrowserRouter>
+          {/* <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Form2 />}/>
                 <Route path="/response" element={<Response />}/>             
             </Routes>
-          </BrowserRouter>
+          </BrowserRouter> */}
          
+         <Blog />
         
 
           
