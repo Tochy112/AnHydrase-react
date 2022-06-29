@@ -1,4 +1,4 @@
-import React, {useState, useEffect, response} from 'react'
+import React, {useState, useEffect} from 'react'
 
 const Blog = () => {
     const [data, getData] = useState([])
@@ -7,23 +7,23 @@ const Blog = () => {
     }, [])
     
     const fetchData = () =>{
-        fetch('https://jsonplaceholder.typicode.com/todos/1')
+        fetch('https://jsonplaceholder.typicode.com/posts/1')
         .then((response => response.json()))
         .then((response => getData(response)));
-        console.log(response)
+        // console.log(getData())
     }
   return (
     <>
         <h1>Blog</h1>
         {
-           data.map((todos, id) => 
+           data ? data.map((data, id) => 
                 (
                 <div key={id}>
-                    <p>{todos.id}</p>
-                    <p>{todos.title}</p>
-                    <p>{todos.completed}</p>
+                    <p>{data.id}</p>
+                    <p>{data.title}</p>
+                    <p>{data.completed}</p>
                 </div>
-           ) )
+           ) ):console.log('error dey guy')
 
            
         } 
