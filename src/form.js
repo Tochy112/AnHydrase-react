@@ -27,16 +27,21 @@ class Form extends React.Component {
                 <form onSubmit= {this.handleSubmit}>
                 <div>
                     <label> Username: </label>
-                    <input  type="text" placeholder ="unique ID" onChange={this.handleChange} />
+                    <input  type="text" placeholder ="unique ID" />
 
                 </div>
                 <div>
                     <label> Password: </label>
-                    <input type="password" placeholder ="password" onChange={this.handleChange}/>
+                    <input type="password" placeholder ="password" />
                 </div>
-
-                <button onChange={this.handleChange}>Submit</button>
+                <div>
+                    <label> Review: </label>
+                    <textarea value={this.state.value} cols="30" rows="10" onChange={this.handleChange} />
+                </div>
+                
                 </form>
+
+                
             </div>
         )
     }

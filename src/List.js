@@ -8,7 +8,7 @@ function List (){
         { id : 4, month : "April"}
     ];
     const listMonth = months.map((item =>
-        <li key={item.id}>{item.month}</li>
+        <li key={item.id}> {item.month}</li>
 ))
   return (
     <div>
